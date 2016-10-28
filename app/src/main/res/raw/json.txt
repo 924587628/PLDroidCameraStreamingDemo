@@ -1,0 +1,25 @@
+{
+				"id": "z1.NIU7PS.baiyi",
+				"createdAt": "2016-05-12T03:17:26.704Z",
+				"updatedAt": "2016-05-12T03:17:26.704Z",
+				"title": "baiyi",
+				"hub": "NIU7PS",
+				"disabled": false,
+				"publishKey": "abc123",
+				"publishSecurity": "static",
+				"hosts": {
+								"publish": {
+												"rtmp": "pili-publish.ps.qiniucdn.com"
+								},
+								"live": {
+												"hdl": "pili-live-hdl.ps.qiniucdn.com",
+												"hls": "pili-live-hls.ps.qiniucdn.com",
+												"http": "pili-live-hls.ps.qiniucdn.com",
+												"rtmp": "pili-live-rtmp.ps.qiniucdn.com"
+								},
+								"playback": {
+												"hls": "pili-playback.ps.qiniucdn.com",
+												"http": "pili-playback.ps.qiniucdn.com"
+								}
+				}
+}
